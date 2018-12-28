@@ -21,8 +21,8 @@ apt install irssi #!Install IRC command line tool
 
 #!Install Git 
 #!sudo apt-get install git
-#!git config --global user.name "Emma Paris"
-#!git config --global user.email "eparis@atlassian.com"
+#!git config --global user.name "SkylarCastator"
+#!git config --global user.email "aerialchemist@gmail.com"
 
 #!Download Python Tools 
 python --version
@@ -30,8 +30,17 @@ echo "Python 2.7.15 preferred"
 apt-get install python-setuptools python-pip
 pip install github3.py
 
+#!Download Python Packages
+pip install numpy
+pip install -U scikit-learn
+pip install -U matplotlib 
+pip install -U nltk
+
 echo "Enter python with python"
 echo "import github3"
+echo "import nltk"
+echo "nltk.download()"
+echo "select all packages"
 echo "exit()"
 
 apt-get install tor
