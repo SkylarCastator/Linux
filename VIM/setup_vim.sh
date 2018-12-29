@@ -1,13 +1,14 @@
 #!/bin/bash
-#!Get Vim
 sudo apt-get update
 apt-get dist-upgrade
+
+#!Get Vim
 sudo apt-get install vim
 
 #!Set up Vundle and copy vimrc file into file path
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-cp ./vimrc ~/.vim/vimrc
-ln ~/.vimrc ~/.vim/vimrc
+#!cp ./vimrc ~/.vim/vimrc
+#!ln ~/.vimrc ~/.vim/vimrc
 
 #!Add in vim plugins 
 vim +PluginInstall +qall
@@ -30,11 +31,22 @@ echo "Python 2.7.15 preferred"
 apt-get install python-setuptools python-pip
 pip install github3.py
 
-#!Download Python Packages
+#!Download Machine Learning and Data Analytics Python Packages
 pip install numpy
 pip install -U scikit-learn
 pip install -U matplotlib 
 pip install -U nltk
+pip install seaborn
+pip install -U panda
+pip install -U textblob 
+
+#!Set up build parameters for OpenCV
+sudo apt-get install build-essential
+sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+
+#!cd ~/<my_working _directory>
+#!git clone https://github.com/opencv/opencv.git
 
 echo "Enter python with python"
 echo "import github3"
