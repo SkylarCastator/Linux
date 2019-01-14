@@ -1,11 +1,11 @@
-README
-  Vundle plugins:
-    Editting:
+Vundle plugins:
+    
+    Editing:
       YankRing- Maintains History
       Multiple Cursor - maintains multiple cursors editting
       Commentary - change lines to comments
       Unimpaired - ?
-      Surround - Editting "Surrounded characters"
+      Surround - Editing "Surrounded characters"
       DelimitMate - automatic close of surrounded text
 
     JavaScript:
@@ -37,9 +37,3 @@ README
     Git
       Fugitive - Git wrapper
       Gitgutter - Shows diffs in files for git
-
-
-To Add:
-  Speeddating
-  vim-easyclip
-
