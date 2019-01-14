@@ -1,4 +1,4 @@
-Vundle plugins:
+VIM plugins:
     
     Editing:
       YankRing- Maintains History
