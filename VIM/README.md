@@ -42,4 +42,5 @@ README
 To Add:
   Speeddating
   vim-easyclip
+  vim-eunuch
 
