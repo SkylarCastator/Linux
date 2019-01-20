@@ -13,6 +13,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 #!Add in vim plugins 
 vim +PluginInstall +qall
 
+sudo apt-get install gnome-tweak-tool
+
 #! Need to link into git repos and download other tools
 echo "dont forget to install / update YoucompleteMe"
 echo "https://github.com/j1z0/dotfiles.git"
@@ -39,6 +41,7 @@ pip install -U nltk
 pip install seaborn
 pip install -U panda
 pip install -U textblob 
+pip install paramiko
 
 #!Set up build parameters for OpenCV
 sudo apt-get install build-essential
